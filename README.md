@@ -43,6 +43,8 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 - "듀오찾기 게시판"은 게시글 삭제가 필요 없습니다.
 #### who? : 한사람이 짧은시간에 여러 게시물을 올릴 수 있기때문에 불필요한 중복을 처리해야 했습니다.
 #### 하지만 발표를 위하여 취소선으로 대체되었습니다.
+###
+
 
 <img width="464" alt="만료시취소선화면" src="https://user-images.githubusercontent.com/53084458/82659017-f33fe380-9c62-11ea-9a41-7130c5a48682.png">
 <img width="692" alt="만료시취소선" src="https://user-images.githubusercontent.com/53084458/82659008-f0dd8980-9c62-11ea-8aa7-5e60326dd74b.png">
@@ -56,6 +58,19 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ![게시글작성](https://user-images.githubusercontent.com/53084458/82656301-7c085080-9c5e-11ea-9ac4-e07c08394f8c.gif)
 
 #
+
+###
+- 제목은 자동으로 매핑됩니다.
+#### who? : 인터넷엔 동의어가 많습니다, 게임용어 에선 더욱 그렇습니다. 
+#### 제목을 일정한 패턴으로 통일시켜 이를 검색으로 활용하였습니다.
+###
+- 검색은 Select를 활용했습니다.
+#### who? : 일정한 패턴의 제목은 여러번 검색할 필요가 없습니다. 3가지 조건만으로 양질의 결과를 반환합니다.
+
+- 검색 시연입니다.
+
+![검색시연자료](https://user-images.githubusercontent.com/53084458/82661296-b675eb80-9c66-11ea-93b4-38f2cc7ce0ee.gif)
+<img width="483" alt="동적쿼리검색용첨부" src="https://user-images.githubusercontent.com/53084458/82661302-b8d84580-9c66-11ea-932c-8488274b257a.png">
 
 
 #
