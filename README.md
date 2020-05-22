@@ -26,7 +26,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 # fifteenGG 프로젝트
 
 ### 일정
-![포트폴리오_김현진_2020_05_20_3](https://user-images.githubusercontent.com/53084458/82660317-1d92a080-9c65-11ea-8695-a0778540bf7d.png)
+![개발일정15gg](https://user-images.githubusercontent.com/53084458/82660573-9265da80-9c65-11ea-9fec-b4365a025c15.jpg)
 
 ## 담당페이지 설명 및 시연자료
 #### fifteenGG 프로젝트에서 듀오찾기 페이지, 챔피언통계 페이지, 승률통계 페이지를 담당 구현하였습니다.
