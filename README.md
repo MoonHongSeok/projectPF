@@ -1,3 +1,20 @@
+#KH정보교육원 이수
+##이수 과정 명
+- [NCS]정보처리산업기사 과정평가형 과정 B
+##교육 기간
+2019년 08월 16일 ~ 2020년 01월 23일
+##교육 내용
+- 응용 SW 기초 기술
+    컴퓨터 구조 및 네트워크 기반 이론
+- JAVA, Servlet / JSP,
+   Spring Framework,   
+   Jdbc, Mybatis, Ajax
+- ORACLE
+   SQL, PL/SQL
+- github (프로젝트 관리도구)
+- HTML / CSS / bootstrap4
+   JavaScript / jQuery
+
 # Rang 프로젝트
 
 
