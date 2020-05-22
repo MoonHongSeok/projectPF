@@ -65,9 +65,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 - 검색은 Select를 활용했습니다.
 #### who? : 일정한 패턴의 제목은 여러번 검색할 필요가 없습니다. 3가지 조건만으로 양질의 결과를 반환합니다.
 
-###
-###
-###
+##
 ## 검색 시연입니다.
 
 ![검색시연자료](https://user-images.githubusercontent.com/53084458/82661296-b675eb80-9c66-11ea-93b4-38f2cc7ce0ee.gif)
