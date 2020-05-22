@@ -23,8 +23,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 - Spring의 특징 및 이해와 실습, Spring MVC처리, MyBATIS 연동
 
 #
-
-# Rang 프로젝트
+#      Rang 프로젝트
 
 ![세미프로젝트 타임라인](https://user-images.githubusercontent.com/53084458/82647471-35f8c000-9c51-11ea-97e1-7bd58b5e0ec7.jpg)
 
