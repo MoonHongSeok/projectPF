@@ -40,8 +40,9 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #### who? : 게시판 특성상 한사람이 짧은시간에 여러 게시물을 올려 
 #### 지나치게 양이 많아짐을 우려하여 자동적으로 삭제되게 구현하였습니다.
 
-<img width="692" alt="만료시취소선" src="https://user-images.githubusercontent.com/53084458/82659008-f0dd8980-9c62-11ea-8aa7-5e60326dd74b.png">
 <img width="464" alt="만료시취소선화면" src="https://user-images.githubusercontent.com/53084458/82659017-f33fe380-9c62-11ea-9a41-7130c5a48682.png">
+<img width="692" alt="만료시취소선" src="https://user-images.githubusercontent.com/53084458/82659008-f0dd8980-9c62-11ea-8aa7-5e60326dd74b.png">
+
 
 #
 
