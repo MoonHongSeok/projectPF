@@ -1,25 +1,26 @@
 # KH정보교육원 이수
 
-### 이수 과정 명
+### JAVA 프로그래밍
+- 기본문법 및 객체지향에 대한 개념과 이해, Collection, List,Set, Map, Exception Handling, 다형성 학습
 
-- [NCS]정보처리산업기사 과정평가형 과정 B
+- Oracle
+DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
-### 교육 기간
+### JDBC
+- JDBC연동순서, 각 클래스의 역할, Type별 driver 특징 설명, transaction의 처리방법 학습
 
-2019년 08월 16일 ~ 2020년 01월 23일
+### JavaScript / HTML 5 / CSS3 
+ - JavaScript 기본 문법, function, 웹표준 기반의 HTML5 마크업, CSS3스탕일링
 
-### 교육 내용
+### jQuery / Bootstrap / Ajax / JSON / XML
+- jQuery웹서비스 활용, Ajax XMLHttpRequest서버와의 통신 이해, GoogleMap등 오픈API활용, JSON 파싱 학습
 
-- 응용 SW 기초 기술
-    컴퓨터 구조 및 네트워크 기반 이론
-- JAVA, Servlet / JSP,
-   Spring Framework,   
-   Jdbc, Mybatis, Ajax
-- ORACLE
-   SQL, PL/SQL
-- github (프로젝트 관리도구)
-- HTML / CSS / bootstrap4
-   JavaScript / jQuery
+### Servlet / JSP / JSTL / EL
+- MVC기반 Web serivce구현, Container의 사용법, Java Web Service시 폴더구성,
+- Servlet 작성법 및 요청과 응답의 사용(HttpServletRequest, HttpServletResponse), EL, JSTL 학습
+
+### Spring / myBATIS
+- Spring의 특징 및 이해와 실습, Spring MVC처리, MyBATIS 연동
 
 # Rang 프로젝트
 
