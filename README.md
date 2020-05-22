@@ -25,7 +25,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 # fifteenGG 프로젝트
 
-### 일정
+###
 ![개발일정15gg](https://user-images.githubusercontent.com/53084458/82660573-9265da80-9c65-11ea-9fec-b4365a025c15.jpg)
 
 ## 담당페이지 설명 및 시연자료
