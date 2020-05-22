@@ -72,7 +72,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 <img width="483" alt="동적쿼리검색용첨부" src="https://user-images.githubusercontent.com/53084458/82661302-b8d84580-9c66-11ea-932c-8488274b257a.png">
 
 ##
-## Jquery의 Data Table을 활용하여 틀을 만들고 CSS로 그래프를 DATA를 기반으로 시각화 하였습니다.
+## Jquery의 Data Table을 활용하여 틀을 만들고 CSS로 그래프를 표현했습니다. 그래프는 실제 DB를 기반으로 변동됩니다.
 ![데이터테이블시연자료](https://user-images.githubusercontent.com/53084458/82663564-dd362100-9c6a-11ea-86bf-de71cff8c732.gif)
 <img width="672" alt="통계테이블쿼리문" src="https://user-images.githubusercontent.com/53084458/82663570-e0311180-9c6a-11ea-85b0-777ffe50beb7.png">
 ##
