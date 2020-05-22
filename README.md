@@ -13,3 +13,9 @@
 
 ![게시글작성](https://user-images.githubusercontent.com/53084458/82644602-8c173480-9c4c-11ea-9a10-03ad688e6022.gif)
 
+
+- 게시글 수정과 삭제 시연입니다.
+
+
+![게시글수정삭제](https://user-images.githubusercontent.com/53084458/82644845-f62fd980-9c4c-11ea-80bd-0bc262bca87e.gif)
+
