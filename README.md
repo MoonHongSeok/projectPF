@@ -39,26 +39,26 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #### MVC패턴을 기반으로 게시판의 기본적 데이터처리 기능인 Create, Read, Update, Delete 구성하여
 #### 게시글 작성, 출력, 수정, 삭제로 기능을 구현하였습니다.
 
-
+#
 - 게시글 작성 시연입니다.
 
 
 
 ![게시글작성](https://user-images.githubusercontent.com/53084458/82644602-8c173480-9c4c-11ea-9a10-03ad688e6022.gif)
-
+#
 
 - 게시글 수정과 삭제 시연입니다.
 
 
 ![게시글수정삭제](https://user-images.githubusercontent.com/53084458/82644845-f62fd980-9c4c-11ea-80bd-0bc262bca87e.gif)
 
-
+#
 
 - 상세페이지에서 댓글 등록,수정,삭제하는 시연입니다.
 
 
 ![댓글시연](https://user-images.githubusercontent.com/53084458/82644988-24151e00-9c4d-11ea-8d4a-3c2c85963134.gif)
-
+#
 
 - Rang 프로젝트 DB설계
 ![5조 랑ppt 최종 (1)_30](https://user-images.githubusercontent.com/53084458/82640993-95050780-9c46-11ea-839f-6e54fbad4f00.png)
