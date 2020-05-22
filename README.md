@@ -29,9 +29,15 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ### 일정
 ![세미프로젝트 타임라인](https://user-images.githubusercontent.com/53084458/82647471-35f8c000-9c51-11ea-97e1-7bd58b5e0ec7.jpg)
 
+
+
+
+
+
 ### 담당페이지
-- Rang 프로젝트에서 "너랑나랑" 페이지를 담당하여, 
-MVC패턴을 기반으로 게시판의 기본적 데이터처리 기능 Create, Read, Update, Delete 구성하였습니다.
+#### Rang 프로젝트에서 "너랑나랑" 페이지를 담당하여, 
+#### MVC패턴을 기반으로 게시판의 기본적 데이터처리 기능인 Create, Read, Update, Delete 구성하여
+#### 게시글 작성, 출력, 수정, 삭제로 기능을 구현하였습니다.
 
 
 - 게시글 작성 시연입니다.
