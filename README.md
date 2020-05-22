@@ -70,7 +70,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 ![검색시연자료](https://user-images.githubusercontent.com/53084458/82661296-b675eb80-9c66-11ea-93b4-38f2cc7ce0ee.gif)
 
-
+## 기능구현 초기 JDBC방식의 SQL로는 검색구현에 문제가 많았습니다. 하지만  myBatis를 적용하면서 검색시 상황에 맞는 동적쿼리를 적용해 올바른 결과값을 가져올 수 있었습니다.
 
 <img width="483" alt="동적쿼리검색용첨부" src="https://user-images.githubusercontent.com/53084458/82661302-b8d84580-9c66-11ea-932c-8488274b257a.png">
 
