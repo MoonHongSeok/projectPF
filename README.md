@@ -30,9 +30,6 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 #
 
-![글작성전체화면](https://user-images.githubusercontent.com/53084458/82657609-97745b00-9c60-11ea-82a1-4509120b2e6b.jpg)
-
-
 - "듀오찾기 게시판"은 게시글 작성, 검색, 목록을 한 페이지에 담아냈습니다.
  #### who? : 게이머 특성상 페이지에 오래 머무르지 않아 짧은시간에 많은 정보를 나타내기 위함입니다.
  #
