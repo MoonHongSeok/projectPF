@@ -37,8 +37,8 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
  #### who? : 게이머 특성상 페이지에 오래 머무르지 않아 짧은시간에 많은 정보를 나타내기 위함입니다.
  #
 - "듀오찾기 게시판"은 게시글 삭제가 필요 없습니다.
-#### who? : 게시판 특성상 한사람이 짧은시간에 여러 게시물을 올려 
-#### 지나치게 양이 많아짐을 우려하여 자동적으로 삭제되게 구현하였습니다.
+#### who? : 한사람이 짧은시간에 여러 게시물을 올릴 수 있기때문에 불필요한 중복을 처리해야 했습니다.
+#### 하지만 발표를 위하여 취소선으로 대체되었습니다.
 
 <img width="464" alt="만료시취소선화면" src="https://user-images.githubusercontent.com/53084458/82659017-f33fe380-9c62-11ea-9a41-7130c5a48682.png">
 <img width="692" alt="만료시취소선" src="https://user-images.githubusercontent.com/53084458/82659008-f0dd8980-9c62-11ea-8aa7-5e60326dd74b.png">
