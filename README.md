@@ -1,4 +1,6 @@
-# KH정보교육원 이수
+# KH정보교육원 수료
+
+# 교육기간 2019년 08월 16일 ~ 2020년 01월 23일
 
 ### JAVA 프로그래밍
 - 기본문법 및 객체지향에 대한 개념과 이해, Collection, List,Set, Map, Exception Handling, 다형성 학습
