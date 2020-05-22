@@ -52,7 +52,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 #
 
-- 게시글 작성 페이지 시연입니다.
+## 게시글 작성 페이지 시연입니다.
 ###
 
 ![게시글작성](https://user-images.githubusercontent.com/53084458/82656301-7c085080-9c5e-11ea-9ac4-e07c08394f8c.gif)
@@ -68,7 +68,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ###
 ###
 ###
-- 검색 시연입니다.
+## 검색 시연입니다.
 
 ![검색시연자료](https://user-images.githubusercontent.com/53084458/82661296-b675eb80-9c66-11ea-93b4-38f2cc7ce0ee.gif)
 <img width="483" alt="동적쿼리검색용첨부" src="https://user-images.githubusercontent.com/53084458/82661302-b8d84580-9c66-11ea-932c-8488274b257a.png">
@@ -92,14 +92,14 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #### 게시글 작성, 출력, 수정, 삭제로 기능을 구현하였습니다.
 
 #
-- 게시글 작성 시연입니다.
+## 게시글 작성 시연입니다.
 
 
 
 ![게시글작성](https://user-images.githubusercontent.com/53084458/82644602-8c173480-9c4c-11ea-9a10-03ad688e6022.gif)
 #
 
-- 게시글 수정과 삭제 시연입니다.
+## 게시글 수정과 삭제 시연입니다.
 
 
 ![게시글수정삭제](https://user-images.githubusercontent.com/53084458/82644845-f62fd980-9c4c-11ea-80bd-0bc262bca87e.gif)
