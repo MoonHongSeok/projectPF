@@ -96,8 +96,12 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ### Jquery의 Data Table Library를 활용하여 틀을 만들고 CSS로 그래프를 표현했습니다. 
 ### 그래프는 실제 DB를 기반으로 변동됩니다.
 #
+#### 다루는 DATA의 양이 많아지고 그만큼 DB를 다루기 위한 SQL코드들이 많아져 점차 복잡해지는 코드와
+#### 지속적인 유지보수역시 고려해야하기 때문에, 기존 JDBC방식이 아닌 myBatis를 활용하여 SQL코드와 JAVA코드를 따로 관리하게 되었습니다.
+
 
 - 챔피언(사진) 클릭시 팀원이 구현한 챔피언 상세정보 페이지로 이동합니다.
+
 ![데이터테이블시연자료](https://user-images.githubusercontent.com/53084458/82663564-dd362100-9c6a-11ea-86bf-de71cff8c732.gif)
 
 #
@@ -147,8 +151,28 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 #
 
+## 너랑나랑 페이지.
+### 너랑나랑 페이지는 함께 여행할 동료, 친구를 찾는 공간입니다.
+#### 참여하기 기능에서 실제 버튼을 눌렀는지, 누르지 않았는지를 실제 DATA로 비교하여
+#### 데이터 무결성을 구현하고자 했습니다.
+
+![참여하기기능](https://user-images.githubusercontent.com/53084458/82725522-71aa8d00-9d18-11ea-9d9e-8f66cdae1cf1.jpg)
+#
+#### 1.사용자가 직접 버튼을 클릭하게 되면 해당 번호를 가진 게시물은 DB에 값이 저장되게 됩니다.
+<img width="310" alt="참여하기코드1" src="https://user-images.githubusercontent.com/53084458/82725525-72dbba00-9d18-11ea-884b-f6e26980dc96.png">
+#### 2. 저장된 값이 COUNT되어 "참여하기" 버튼을 누른 인원을 표시하게 됩니다.
+<img width="340" alt="참여하기코드2" src="https://user-images.githubusercontent.com/53084458/82725526-740ce700-9d18-11ea-88e6-f42a8e8de889.png">
+#### 3. 데이터 무결성을 구현하여 중복클릭을 방지했습니다. 
+#### 참여하기 버튼의 경우 해당 게시물 번호와 유저의 번호(클릭이 아닌경우:0, 클릭한 경우:1)를 비교하여
+#### 클릭 여부를 판단해 활성화 or 비활성화를 하게 됩니다.
+<img width="411" alt="참여하기코드3" src="https://user-images.githubusercontent.com/53084458/82725521-6f483300-9d18-11ea-84a5-49603bc33c54.png">
+#
+
+
 ## 게시글 작성 시연입니다.
 
+### JDBC방식을 적용하여 DATA를 DB까지 올바르게 전달하고 올바르게 전달 된 DATA를 
+### 게시판 List에 출력할 수 있었습니다. 또 기능들을 구현하면서 MVC패턴에 대한 이해할 수 있었습니다.
 
 
 ![게시글작성](https://user-images.githubusercontent.com/53084458/82644602-8c173480-9c4c-11ea-9a10-03ad688e6022.gif)
