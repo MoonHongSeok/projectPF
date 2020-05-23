@@ -119,6 +119,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ![3 승률통계](https://user-images.githubusercontent.com/53084458/82663581-e626f280-9c6a-11ea-8241-04d5136341e6.jpg)
 <img width="714" alt="차트제이에스" src="https://user-images.githubusercontent.com/53084458/82663588-e7f0b600-9c6a-11ea-932f-93ed55163bd0.png">
 
+### 감사합니다. fifteen.GG END;
 
 #
 #  Rang 프로젝트
@@ -168,4 +169,6 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 - Rang 프로젝트 DB설계
 ![5조 랑ppt 최종 (1)_30](https://user-images.githubusercontent.com/53084458/82640993-95050780-9c46-11ea-839f-6e54fbad4f00.png)
+
+### END;
 
