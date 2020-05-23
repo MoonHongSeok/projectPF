@@ -86,8 +86,11 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 - 챔피언(사진) 클릭시 팀원이 구현한 챔피언 상세정보 페이지로 이동합니다.
 ![데이터테이블시연자료](https://user-images.githubusercontent.com/53084458/82663564-dd362100-9c6a-11ea-86bf-de71cff8c732.gif)
 <img width="672" alt="통계테이블쿼리문" src="https://user-images.githubusercontent.com/53084458/82663570-e0311180-9c6a-11ea-85b0-777ffe50beb7.png">
+
 ##
+
 ## 3. Chart.js를 활용하여 DATA를 시각과 하였습니다.
+
 ![3 승률통계](https://user-images.githubusercontent.com/53084458/82663581-e626f280-9c6a-11ea-8241-04d5136341e6.jpg)
 <img width="714" alt="차트제이에스" src="https://user-images.githubusercontent.com/53084458/82663588-e7f0b600-9c6a-11ea-932f-93ed55163bd0.png">
 
@@ -97,6 +100,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 
 ### 일정
+
 ![세미프로젝트 타임라인](https://user-images.githubusercontent.com/53084458/82647471-35f8c000-9c51-11ea-97e1-7bd58b5e0ec7.jpg)
 
 
@@ -110,6 +114,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #### 게시글 작성, 출력, 수정, 삭제로 기능을 구현하였습니다.
 
 #
+
 ## 게시글 작성 시연입니다.
 
 
