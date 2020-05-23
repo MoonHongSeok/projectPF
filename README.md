@@ -161,15 +161,20 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 #### 1.사용자가 직접 버튼을 클릭하게 되면 해당 번호를 가진 게시물은 DB에 값이 저장되게 됩니다.
 <img width="310" alt="참여하기코드1" src="https://user-images.githubusercontent.com/53084458/82725525-72dbba00-9d18-11ea-884b-f6e26980dc96.png">
+
 #### 2.저장된 값이 COUNT되어 "참여하기" 버튼을 누른 인원을 표시하게 됩니다.
+
 <img width="340" alt="참여하기코드2" src="https://user-images.githubusercontent.com/53084458/82725526-740ce700-9d18-11ea-88e6-f42a8e8de889.png">
+
 #### 3.데이터 무결성을 구현하여 중복클릭을 방지했습니다. 
+
+
+
+<img width="411" alt="참여하기코드3" src="https://user-images.githubusercontent.com/53084458/82725521-6f483300-9d18-11ea-84a5-49603bc33c54.png">
 
 #### 참여하기 버튼의 경우 해당 게시물 번호와 유저의 번호(클릭이 아닌경우:0, 클릭한 경우:1)를 비교하여
 
 #### 클릭 여부를 판단해 활성화 or 비활성화를 하게 됩니다.
-
-<img width="411" alt="참여하기코드3" src="https://user-images.githubusercontent.com/53084458/82725521-6f483300-9d18-11ea-84a5-49603bc33c54.png">
 
 #
 
