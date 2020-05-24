@@ -61,6 +61,9 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #
 
 ![partyController](https://user-images.githubusercontent.com/53084458/82750191-6a9f7f80-9de9-11ea-9781-358d1979e8b5.jpg)
+
+- @RequestMapping 어노테이션으로 어떤 Controller로 처리할지 경로를 설정했습니다.
+- @Autowired로 의존하는 객체(Service)를 주입시켰습니다.
 #
 
 ## Controller를 통해 나타낼 DATA, DATA의가공처리등을 책임지는 "Model"입니다.  
@@ -68,31 +71,38 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ### 첫째로 Model Service입니다.
 
 ![partyService](https://user-images.githubusercontent.com/53084458/82750201-6f643380-9de9-11ea-9405-be16a9ed16d9.jpg)
-### ----
+
+- @Service로 Repository를 통해 DB에서 DATA를 가져온 후 Controller에 전달해주는 클래스임을 명시했습니다.
 
 #
 
 ### Model DAO입니다.
 
 ![partyDAO](https://user-images.githubusercontent.com/53084458/82750198-6d9a7000-9de9-11ea-9132-d908cca8e957.jpg)
-### ----
 
-#
+- @Repository로 해당 클래스가 DB에 접근하는 클래스임을 명시했습니다.
+- @Autowired로 sqlSession 의존성을 주입했습니다.
+- sqlSessionTemplate의 경우 commit과 rollback등으로 mapper의 관리를 도와줍니다.
 
-### 결과
+#### @Controller, @Service, @Repository의 어노테이션 경우 더 높은 계층 @Component라는 어노테이션이 존재하지만
+#### 구체적으로 사용하게되면 시각적으로 더욱 판단하기 편리합니다.
+##
+### 흐름
 #### 사용자가 View에서 액션을 하게되면 Controller에서 액션에 맞게 Model로 정보를 전달하게 됩니다.
 #### Model에서는 DB까지 사용자 요청에 맞게 DATA를 저장, 수정 등 올바르게 가공하여
-#### 다시 Controller를 통해 View로 결과를 출력 최종적으로 사용자까지 도달하게 됩니다.
+#### 다시 Model을 통해 Controller에서 View로 결과를 출력 최종적으로 사용자까지 도달하게 됩니다.
 
 #
 
-### 게시글 타이머 및 입력시간 표시입니다.
+### Jquery를 사용하여 게시글 타이머 및 입력시간 표시했습니다.
 
 <img width="464" alt="만료시취소선화면" src="https://user-images.githubusercontent.com/53084458/82659017-f33fe380-9c62-11ea-9a41-7130c5a48682.png">
 <img width="692" alt="만료시취소선" src="https://user-images.githubusercontent.com/53084458/82659008-f0dd8980-9c62-11ea-8aa7-5e60326dd74b.png">
-#
 
-### ----
+### oracle DB와 JAVA의 시간포맷이 달라 둘을 UNIX포맷(1970년 1월 1일기준 초 단위의 시간)으로 통일시켜
+### 초,분,시간,일 단위로 변수를 정의한 후 입력시간과 현재시간을 비교해 구현했습니다.
+- 24시간이 지나면 자동적으로 게시한 날짜로 변경됩니다.
+
 
 #
 
@@ -122,6 +132,9 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ### 하지만 myBatis를 적용하면서 검색시 상황에 맞는 동적쿼리를 적용해 올바른 결괏값을 가져올 수 있었습니다.
 
 <img width="483" alt="동적쿼리검색용첨부" src="https://user-images.githubusercontent.com/53084458/82661302-b8d84580-9c66-11ea-932c-8488274b257a.png">
+
+- 사용자가 검색 액션을 하게되면 동작하는 쿼리입니다.
+- <choose>태그 안에서 조건에 따라 <when>또는 <otherwise>의 코드가 실행됩니다. 
 
 ##
 ## 2. 챔피언 통계 페이지입니다.
