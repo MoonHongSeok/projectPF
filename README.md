@@ -247,13 +247,11 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ### 정보를 받은 DAO는 JDBC를 이용하여 DB에 정보를 가공 처리합니다.
 ![RangInsertSQL](https://user-images.githubusercontent.com/53084458/82750209-74c17e00-9de9-11ea-8f02-825947d2fb85.jpg)
 #
-### 이렇게 처리된 DATA는 사용자 요청에 따라 oracle DB의 정보를 입력, 수정하게 되고,
+### 이렇게 처리된 DATA는 사용자 요청에 따라 oracle DB의 정보를 입력하게 되고
 ### 처리된 DATA를 기반으로 다시 View에 출력하게 됩니다.
 #
 
 ## 게시글 수정과 삭제 시연입니다.
-
-#
 
 ![게시글수정삭제](https://user-images.githubusercontent.com/53084458/82644845-f62fd980-9c4c-11ea-80bd-0bc262bca87e.gif)
 
@@ -266,17 +264,19 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #
 
 ![RangUpdateDAO](https://user-images.githubusercontent.com/53084458/82750216-7b4ff580-9de9-11ea-9e06-f35a34d2fda5.jpg)
-## 간단설명.
+
+#
+
 ### 기존정보에서 수정될 정보를 받아 PreparedStatement를 통해 SQL을 실행하게 됩니다.
 ### (SQL:UPDATE TBOARD SET TBTITLE = ?, TBCONTENT = ?, TBFILE = ? WHERE TBNO = ?)
 ### JAVA의 코드는 위에서 아래로 순차적으로 처리되며, "pstmt.setString(1, tb.getTbTitle());"부터 실행
 ### SQL문의 첫번째 "?"부터 DATA를 처리해 수정작업이 이루어집니다.
 
 #
+
+![게시판SQL프로퍼티관리](https://user-images.githubusercontent.com/53084458/82750218-7d19b900-9de9-11ea-9db5-3c8f206c5eb2.jpg)
 ### properties를 활용하여 JAVA코드와 SQL코드를 별도관리하여 
 ### 유지보수측면에서 이점을 발휘하는것을 배웠습니다.
-![게시판SQL프로퍼티관리](https://user-images.githubusercontent.com/53084458/82750218-7d19b900-9de9-11ea-9db5-3c8f206c5eb2.jpg)
-
 #
 ### 게시판 페이징처리 코드입니다.
 ![RangPage처리](https://user-images.githubusercontent.com/53084458/82750210-768b4180-9de9-11ea-96ee-3713022ea7c8.jpg)
