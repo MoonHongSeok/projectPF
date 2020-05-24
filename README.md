@@ -156,7 +156,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 ##
 
-### myBatis를 접하며
+### myBatis
 #### 첫단에 명시되는 select, update, delete, insert 등의 요소에 집중되도록 설계 되어 빠르고
 #### JDBC와 비교해 매우 짧아진 코드로 가독성, 생산성, 유지보수등 이점이 많은 프레임워크임을 배웠습니다.
 
