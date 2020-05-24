@@ -26,7 +26,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 - Spring의 특징 및 이해와 실습, Spring MVC처리, MyBATIS 연동
 #
 
-# fifteenGG 프로젝트
+# Spring MVC패턴 기반의 "fifteenGG" 프로젝트
 ### 실제 플레이한 게임 데이터를 기반으로 전적검색 및 데이터 시각화를 목적으로 프로젝트를 진행하였습니다.
 #### 듀오찾기 게시판으로 같이 플레이할 유저를 매칭합니다.
 #### 게임 빅데이터를 활용하기 위한 Riot API를 사용하여 데이터를 수집했습니다.
