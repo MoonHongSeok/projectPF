@@ -134,7 +134,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 <img width="483" alt="동적쿼리검색용첨부" src="https://user-images.githubusercontent.com/53084458/82661302-b8d84580-9c66-11ea-932c-8488274b257a.png">
 
 - 사용자가 검색 액션을 하게되면 동작하는 쿼리입니다.
-- <choose>태그 안에서 조건에 따라 <when>또는 <otherwise>의 코드가 실행됩니다. 
+- choose태그 안에서 조건에 따라 when또는 otherwise의 코드가 실행됩니다. 
 
 ##
 ## 2. 챔피언 통계 페이지입니다.
