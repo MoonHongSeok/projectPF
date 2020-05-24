@@ -66,7 +66,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 - @Autowired로 의존하는 객체(Service)를 주입시켰습니다.
 #
 
-## Controller를 통해 나타낼 DATA, DATA의가공처리등을 책임지는 "Model"입니다.  
+## Controller를 통해 나타낼 DATA, DATA의 가공처리등을 책임지는 "Model"입니다.  
   
 ### 첫째로 Model Service입니다.
 
@@ -94,13 +94,13 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 #
 
-### Jquery를 사용하여 게시글 타이머 및 입력시간 표시했습니다.
+### Jquery를 사용하여 게시글 타이머 및 입력시간 표시를 구현했습니다.
 
 <img width="464" alt="만료시취소선화면" src="https://user-images.githubusercontent.com/53084458/82659017-f33fe380-9c62-11ea-9a41-7130c5a48682.png">
 <img width="692" alt="만료시취소선" src="https://user-images.githubusercontent.com/53084458/82659008-f0dd8980-9c62-11ea-8aa7-5e60326dd74b.png">
 
-#### oracle DB와 JAVA의 시간포맷이 달라 둘을 UNIX포맷으로 통일시켜
-#### 초<분<시간<일 단위로 변수를 정의한 후 입력시간과 현재시간을 비교해 구현했습니다.
+#### JavaScript UNIX포맷 함수인 Date().getTime(), JAVA의 UNIX포맷 함수인 currentTimeMillis()를 활용
+#### 초<분<시간<일 단위로 변수를 정의한 후 현재시간과 입력시간을 비교해 구현했습니다.
 - 24시간이 지나면 자동적으로 게시한 날짜로 변경됩니다.
 
 
@@ -140,14 +140,11 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ## 2. 챔피언 통계 페이지입니다.
 ### Jquery의 Data Table Library를 활용하여 틀을 만들고 CSS로 그래프를 표현했습니다. 
 ### 그래프는 실제 DB를 기반으로 변동됩니다.
+
 #
-#### 다루는 DATA의 양이 많아지고 그만큼 DB를 다루기 위한 SQL코드들이 많아져 점차 복잡해지는 코드와
-#### 지속적인 유지보수역시 고려해야하기 때문에, 기존 JDBC방식이 아닌 myBatis를 활용하여 SQL코드와 JAVA코드를 따로 관리하게 되었습니다.
-
-
-- 챔피언(사진) 클릭시 팀원이 구현한 챔피언 상세정보 페이지로 이동합니다.
 
 ![데이터테이블시연자료](https://user-images.githubusercontent.com/53084458/82663564-dd362100-9c6a-11ea-86bf-de71cff8c732.gif)
+- 챔피언(사진) 클릭시 팀원이 구현한 챔피언 상세정보 페이지로 이동합니다.
 
 #
 
@@ -159,6 +156,12 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 ##
 
+### myBatis를 접하며
+#### 첫단에 명시되는 select, update, delete, insert 등의 요소에 집중되도록 설계 되어 빠르고
+#### JDBC와 비교해 매우 짧아진 코드로 가독성, 생산성, 유지보수등 이점이 많은 프레임워크임을 배웠습니다.
+
+#
+
 ## 3. 승률 통계 페이지입니다.
 ### Chart.js를 활용하여 DATA를 시각과 하였습니다.
 #### 처음에는 챔피언 통계 페이지에 활용할 목적이었으나, 공부를 할수록
@@ -166,18 +169,22 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #### 승률 통계 페이지에서만 활용하게 되었습니다.
 
 ![3 승률통계](https://user-images.githubusercontent.com/53084458/82663581-e626f280-9c6a-11ea-8241-04d5136341e6.jpg)
-### ----
+
+- 승률에 대해 그래프로 표현하여 숫자를 보다 확인하기 쉽게 사용자 중점으로 디자인 하였습니다. 
 
 #
+
+### Chart.js 코드입니다.
 
 <img width="714" alt="차트제이에스" src="https://user-images.githubusercontent.com/53084458/82663588-e7f0b600-9c6a-11ea-932f-93ed55163bd0.png">
-### ----
+
 
 #
 
-### 감사합니다. fifteen.GG END;
 
-#
+
+## fifteen.GG 프로젝트 였습니다. 
+
 #  Rang 프로젝트
 
 ## 저의 첫번째 프로젝트인 "Rang"입니다.
@@ -234,7 +241,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ## 게시글 작성 시연입니다.
 
 ### JDBC방식을 적용하여 DATA를 DB까지 올바르게 전달하고 올바르게 전달 된 DATA를 
-### 게시판 List에 출력할 수 있었습니다. 또 기능들을 구현하면서 MVC패턴에 대한 이해할 수 있었습니다.
+### 게시판 List에 출력할 수 있었습니다. 또 기능들을 구현하면서 MVC패턴에 대해 깊이 이해할 수 있었습니다.
 #
 
 ![게시글작성](https://user-images.githubusercontent.com/53084458/82644602-8c173480-9c4c-11ea-9a10-03ad688e6022.gif)
@@ -244,7 +251,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ![RangInsertCont](https://user-images.githubusercontent.com/53084458/82750204-712df700-9de9-11ea-8e8a-e08ff88a3c00.jpg)
 
 #
-### 정보를 받은 DAO는 JDBC를 이용하여 DB에 정보를 가공 처리합니다.
+### 정보를 받은 DAO는 JDBC를 이용하여 DB까지 올바르게 정보를 가공 처리합니다.
 ![RangInsertSQL](https://user-images.githubusercontent.com/53084458/82750209-74c17e00-9de9-11ea-8f02-825947d2fb85.jpg)
 #
 ### 이렇게 처리된 DATA는 사용자 요청에 따라 oracle DB의 정보를 입력하게 되고
