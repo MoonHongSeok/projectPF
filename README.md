@@ -68,23 +68,33 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ## Model Service입니다.
 
 ![partyService](https://user-images.githubusercontent.com/53084458/82750201-6f643380-9de9-11ea-9405-be16a9ed16d9.jpg)
+### 설명보완해주기
 
 #
 
 ## Model DAO입니다.
 
 ![partyDAO](https://user-images.githubusercontent.com/53084458/82750198-6d9a7000-9de9-11ea-9132-d908cca8e957.jpg)
+### 설명보완해주기
+
 #
 
 ### 결과
 #### 사용자가 View에서 액션을 하게되면 Controller에서 액션에 맞게 Model로 정보를 전달하게 됩니다.
 #### Model에서는 DB까지 사용자 요청에 맞게 DATA를 저장, 수정 등 올바르게 가공하여
 #### 다시 Controller를 통해 View로 결과를 출력 최종적으로 사용자까지 도달하게 됩니다.
+
+#
+
+### 게시글 타이머 및 입력시간 표시입니다.
+
 #
 
 <img width="464" alt="만료시취소선화면" src="https://user-images.githubusercontent.com/53084458/82659017-f33fe380-9c62-11ea-9a41-7130c5a48682.png">
 <img width="692" alt="만료시취소선" src="https://user-images.githubusercontent.com/53084458/82659008-f0dd8980-9c62-11ea-8aa7-5e60326dd74b.png">
+#
 
+### 설명보완해주기
 
 #
 
@@ -145,7 +155,14 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #### 승률 통계 페이지에서만 활용하게 되었습니다.
 
 ![3 승률통계](https://user-images.githubusercontent.com/53084458/82663581-e626f280-9c6a-11ea-8241-04d5136341e6.jpg)
+### 설명보완해주기
+
+#
+
 <img width="714" alt="차트제이에스" src="https://user-images.githubusercontent.com/53084458/82663588-e7f0b600-9c6a-11ea-932f-93ed55163bd0.png">
+### 설명보완해주기
+
+#
 
 ### 감사합니다. fifteen.GG END;
 
@@ -216,7 +233,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ![RangInsertCont](https://user-images.githubusercontent.com/53084458/82750204-712df700-9de9-11ea-8e8a-e08ff88a3c00.jpg)
 
 #
-### 로직을 거쳐 정보를 받은 DAO는 JDBC를 이용하여 DB에 정보를 가공 처리합니다.
+### 정보를 받은 DAO는 JDBC를 이용하여 DB에 정보를 가공 처리합니다.
 ![RangInsertSQL](https://user-images.githubusercontent.com/53084458/82750209-74c17e00-9de9-11ea-8f02-825947d2fb85.jpg)
 #
 ### 이렇게 처리된 DATA는 사용자 요청에 따라 oracle DB의 정보를 입력, 수정하게 되고,
@@ -250,14 +267,21 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ![게시판SQL프로퍼티관리](https://user-images.githubusercontent.com/53084458/82750218-7d19b900-9de9-11ea-9db5-3c8f206c5eb2.jpg)
 
 #
-
+### 게시판 페이징처리 코드입니다.
 ![RangPage처리](https://user-images.githubusercontent.com/53084458/82750210-768b4180-9de9-11ea-96ee-3713022ea7c8.jpg)
+
+### 설명보완해주기
+
+#
+
 
 ## 상세페이지에서 댓글 등록,수정,삭제하는 시연입니다.
 
 
 ![댓글시연](https://user-images.githubusercontent.com/53084458/82644988-24151e00-9c4d-11ea-8d4a-3c2c85963134.gif)
 #
+
+### 설명
 
 
 - Rang 프로젝트 DB설계
