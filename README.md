@@ -60,7 +60,9 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ### 사용자가 화면에서 어떤 액션이 취해지면 이벤트를 처리하는 "Controller"입니다.
 ![partyController](https://user-images.githubusercontent.com/53084458/82750191-6a9f7f80-9de9-11ea-9781-358d1979e8b5.jpg)
 
-### Controller를 통해 나타낼 DATA, DATA의가공처리등을 책임지는 "Model"입니다.
+### Controller를 통해 나타낼 DATA, DATA의가공처리등을 책임지는 "Model"입니다.  
+  
+<br>
 - Model Service입니다.
 ![partyService](https://user-images.githubusercontent.com/53084458/82750201-6f643380-9de9-11ea-9405-be16a9ed16d9.jpg)
 - model DAO입니다.
