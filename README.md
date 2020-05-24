@@ -99,8 +99,8 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 <img width="464" alt="만료시취소선화면" src="https://user-images.githubusercontent.com/53084458/82659017-f33fe380-9c62-11ea-9a41-7130c5a48682.png">
 <img width="692" alt="만료시취소선" src="https://user-images.githubusercontent.com/53084458/82659008-f0dd8980-9c62-11ea-8aa7-5e60326dd74b.png">
 
-### oracle DB와 JAVA의 시간포맷이 달라 둘을 UNIX포맷(1970년 1월 1일기준 초 단위의 시간)으로 통일시켜
-### 초,분,시간,일 단위로 변수를 정의한 후 입력시간과 현재시간을 비교해 구현했습니다.
+#### oracle DB와 JAVA의 시간포맷이 달라 둘을 UNIX포맷으로 통일시켜
+#### 초<분<시간<일 단위로 변수를 정의한 후 입력시간과 현재시간을 비교해 구현했습니다.
 - 24시간이 지나면 자동적으로 게시한 날짜로 변경됩니다.
 
 
