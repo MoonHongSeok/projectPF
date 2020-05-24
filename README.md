@@ -273,7 +273,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ### SQL문의 첫번째 "?"부터 DATA를 처리해 수정작업이 이루어집니다.
 
 #
-
+## 
 ![게시판SQL프로퍼티관리](https://user-images.githubusercontent.com/53084458/82750218-7d19b900-9de9-11ea-9db5-3c8f206c5eb2.jpg)
 ### properties를 활용하여 JAVA코드와 SQL코드를 별도관리하여 
 ### 유지보수측면에서 이점을 발휘하는것을 배웠습니다.
