@@ -63,19 +63,19 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ![partyController](https://user-images.githubusercontent.com/53084458/82750191-6a9f7f80-9de9-11ea-9781-358d1979e8b5.jpg)
 #
 
-### Controller를 통해 나타낼 DATA, DATA의가공처리등을 책임지는 "Model"입니다.  
+# Controller를 통해 나타낼 DATA, DATA의가공처리등을 책임지는 "Model"입니다.  
   
 ## Model Service입니다.
 
 ![partyService](https://user-images.githubusercontent.com/53084458/82750201-6f643380-9de9-11ea-9405-be16a9ed16d9.jpg)
-### 설명보완해주기
+### ----
 
 #
 
 ## Model DAO입니다.
 
 ![partyDAO](https://user-images.githubusercontent.com/53084458/82750198-6d9a7000-9de9-11ea-9132-d908cca8e957.jpg)
-### 설명보완해주기
+### ----
 
 #
 
@@ -94,7 +94,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 <img width="692" alt="만료시취소선" src="https://user-images.githubusercontent.com/53084458/82659008-f0dd8980-9c62-11ea-8aa7-5e60326dd74b.png">
 #
 
-### 설명보완해주기
+### ----
 
 #
 
@@ -155,12 +155,12 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #### 승률 통계 페이지에서만 활용하게 되었습니다.
 
 ![3 승률통계](https://user-images.githubusercontent.com/53084458/82663581-e626f280-9c6a-11ea-8241-04d5136341e6.jpg)
-### 설명보완해주기
+### ----
 
 #
 
 <img width="714" alt="차트제이에스" src="https://user-images.githubusercontent.com/53084458/82663588-e7f0b600-9c6a-11ea-932f-93ed55163bd0.png">
-### 설명보완해주기
+### ----
 
 #
 
@@ -270,7 +270,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ### 게시판 페이징처리 코드입니다.
 ![RangPage처리](https://user-images.githubusercontent.com/53084458/82750210-768b4180-9de9-11ea-96ee-3713022ea7c8.jpg)
 
-### 설명보완해주기
+### ----
 
 #
 
@@ -281,7 +281,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ![댓글시연](https://user-images.githubusercontent.com/53084458/82644988-24151e00-9c4d-11ea-8d4a-3c2c85963134.gif)
 #
 
-### 설명
+### ----
 
 
 - Rang 프로젝트 DB설계
