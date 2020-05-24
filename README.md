@@ -32,7 +32,6 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #### 게임 빅데이터를 활용하기 위한 Riot API를 사용하여 데이터를 수집했습니다.
 #### 빅데이터를 기반으로 통계수치화 및 시각화 하였습니다.
 
-
 ![개발일정15gg](https://user-images.githubusercontent.com/53084458/82660573-9265da80-9c65-11ea-9fec-b4365a025c15.jpg)
 
 ### 2019년 12월 23일 ~ 2020년 1월 23일.
@@ -55,8 +54,22 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ### "듀오찾기 게시판"은 게시글 삭제가 필요 없습니다.
 - who? : 한사람이 짧은시간에 여러 게시물을 올릴 수 있기때문에 불필요한 중복을 처리해야 했습니다.
 - 하지만 시각적 표현이 필요하여 취소선으로 대체되었습니다.
-###
+#
 
+## 화면 게시물등록, 검색, 목록등을 구현한 Spring MVC패턴 코드입니다.
+### 사용자가 화면에서 어떤 액션이 취해지면 이벤트를 처리하는 "Controller"입니다.
+![partyController](https://user-images.githubusercontent.com/53084458/82750191-6a9f7f80-9de9-11ea-9781-358d1979e8b5.jpg)
+
+### Controller를 통해 나타낼 DATA, DATA의가공처리등을 책임지는 "Model"입니다.
+- Model Service입니다.
+![partyService](https://user-images.githubusercontent.com/53084458/82750201-6f643380-9de9-11ea-9405-be16a9ed16d9.jpg)
+- model DAO입니다.
+![partyDAO](https://user-images.githubusercontent.com/53084458/82750198-6d9a7000-9de9-11ea-9132-d908cca8e957.jpg)
+
+- 결과
+#### DAO에서는 DB까지 사용자 요청에 맞게 DATA를 저장, 수정 등 올바르게 가공하여
+#### 다시 Controller를 통해 View로 결과를 출력 최종적으로 사용자까지 도달하게 됩니다.
+#
 
 <img width="464" alt="만료시취소선화면" src="https://user-images.githubusercontent.com/53084458/82659017-f33fe380-9c62-11ea-9a41-7130c5a48682.png">
 <img width="692" alt="만료시취소선" src="https://user-images.githubusercontent.com/53084458/82659008-f0dd8980-9c62-11ea-8aa7-5e60326dd74b.png">
@@ -65,9 +78,9 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #
 
 ## 게시글 작성 페이지 시연입니다.
-###
 
 ![게시글작성](https://user-images.githubusercontent.com/53084458/82656301-7c085080-9c5e-11ea-9ac4-e07c08394f8c.gif)
+
 
 #
 
@@ -128,7 +141,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #
 #  Rang 프로젝트
 
-### 저의 첫번째 프로젝트인 "Rang"입니다.
+## 저의 첫번째 프로젝트인 "Rang"입니다.
 #### 여행을 공유하여 나의 여행을 다른사람들과 소통, 함께할 일행구하기 그리고
 #### 다른사람의 여행을 참고하여 나의 여행을 디자인할 수 있는 플랫폼을 목적으로 진행하였습니다.
 
@@ -186,23 +199,34 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 
 ![게시글작성](https://user-images.githubusercontent.com/53084458/82644602-8c173480-9c4c-11ea-9a10-03ad688e6022.gif)
+![RangInsertCont](https://user-images.githubusercontent.com/53084458/82750204-712df700-9de9-11ea-8e8a-e08ff88a3c00.jpg)
+![RangInsertSQL](https://user-images.githubusercontent.com/53084458/82750209-74c17e00-9de9-11ea-8f02-825947d2fb85.jpg)
 #
 
 ## 게시글 수정과 삭제 시연입니다.
 
 
 ![게시글수정삭제](https://user-images.githubusercontent.com/53084458/82644845-f62fd980-9c4c-11ea-80bd-0bc262bca87e.gif)
+![RangUpdate](https://user-images.githubusercontent.com/53084458/82750214-78ed9b80-9de9-11ea-9a7e-debe799ac6fb.jpg)
+![RangUpdateDAO](https://user-images.githubusercontent.com/53084458/82750216-7b4ff580-9de9-11ea-9e06-f35a34d2fda5.jpg)
 
 #
+
+![RangPage처리](https://user-images.githubusercontent.com/53084458/82750210-768b4180-9de9-11ea-96ee-3713022ea7c8.jpg)
 
 ## 상세페이지에서 댓글 등록,수정,삭제하는 시연입니다.
 
 
 ![댓글시연](https://user-images.githubusercontent.com/53084458/82644988-24151e00-9c4d-11ea-8d4a-3c2c85963134.gif)
 #
+![게시판SQL프로퍼티관리](https://user-images.githubusercontent.com/53084458/82750218-7d19b900-9de9-11ea-9db5-3c8f206c5eb2.jpg)
 
 - Rang 프로젝트 DB설계
 ![5조 랑ppt 최종 (1)_30](https://user-images.githubusercontent.com/53084458/82640993-95050780-9c46-11ea-839f-6e54fbad4f00.png)
 
 ### END;
+
+
+
+
 
