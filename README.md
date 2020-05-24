@@ -63,16 +63,16 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ![partyController](https://user-images.githubusercontent.com/53084458/82750191-6a9f7f80-9de9-11ea-9781-358d1979e8b5.jpg)
 #
 
-# Controller를 통해 나타낼 DATA, DATA의가공처리등을 책임지는 "Model"입니다.  
+## Controller를 통해 나타낼 DATA, DATA의가공처리등을 책임지는 "Model"입니다.  
   
-## Model Service입니다.
+### 첫째로 Model Service입니다.
 
 ![partyService](https://user-images.githubusercontent.com/53084458/82750201-6f643380-9de9-11ea-9405-be16a9ed16d9.jpg)
 ### ----
 
 #
 
-## Model DAO입니다.
+### Model DAO입니다.
 
 ![partyDAO](https://user-images.githubusercontent.com/53084458/82750198-6d9a7000-9de9-11ea-9132-d908cca8e957.jpg)
 ### ----
@@ -87,8 +87,6 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #
 
 ### 게시글 타이머 및 입력시간 표시입니다.
-
-#
 
 <img width="464" alt="만료시취소선화면" src="https://user-images.githubusercontent.com/53084458/82659017-f33fe380-9c62-11ea-9a41-7130c5a48682.png">
 <img width="692" alt="만료시취소선" src="https://user-images.githubusercontent.com/53084458/82659008-f0dd8980-9c62-11ea-8aa7-5e60326dd74b.png">
