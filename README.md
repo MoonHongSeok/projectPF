@@ -57,19 +57,28 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #
 
 ## 화면 게시물등록, 검색, 목록등을 구현한 Spring MVC패턴 코드입니다.
-### 사용자가 화면에서 어떤 액션이 취해지면 이벤트를 처리하는 "Controller"입니다.
+### 사용자가 화면에서 액션이 취해지면 이벤트를 처리하는 "Controller"입니다.
+#
+
 ![partyController](https://user-images.githubusercontent.com/53084458/82750191-6a9f7f80-9de9-11ea-9781-358d1979e8b5.jpg)
+#
 
 ### Controller를 통해 나타낼 DATA, DATA의가공처리등을 책임지는 "Model"입니다.  
   
-<br>
-- Model Service입니다.
-![partyService](https://user-images.githubusercontent.com/53084458/82750201-6f643380-9de9-11ea-9405-be16a9ed16d9.jpg)
-- model DAO입니다.
-![partyDAO](https://user-images.githubusercontent.com/53084458/82750198-6d9a7000-9de9-11ea-9132-d908cca8e957.jpg)
+## Model Service입니다.
 
-- 결과
-#### DAO에서는 DB까지 사용자 요청에 맞게 DATA를 저장, 수정 등 올바르게 가공하여
+![partyService](https://user-images.githubusercontent.com/53084458/82750201-6f643380-9de9-11ea-9405-be16a9ed16d9.jpg)
+
+#
+
+## Model DAO입니다.
+
+![partyDAO](https://user-images.githubusercontent.com/53084458/82750198-6d9a7000-9de9-11ea-9132-d908cca8e957.jpg)
+#
+
+### 결과
+#### 사용자가 View에서 액션을 하게되면 Controller에서 액션에 맞게 Model로 정보를 전달하게 됩니다.
+#### Model에서는 DB까지 사용자 요청에 맞게 DATA를 저장, 수정 등 올바르게 가공하여
 #### 다시 Controller를 통해 View로 결과를 출력 최종적으로 사용자까지 도달하게 됩니다.
 #
 
@@ -198,19 +207,47 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 ### JDBC방식을 적용하여 DATA를 DB까지 올바르게 전달하고 올바르게 전달 된 DATA를 
 ### 게시판 List에 출력할 수 있었습니다. 또 기능들을 구현하면서 MVC패턴에 대한 이해할 수 있었습니다.
-
+#
 
 ![게시글작성](https://user-images.githubusercontent.com/53084458/82644602-8c173480-9c4c-11ea-9a10-03ad688e6022.gif)
+#
+### 먼저 위 시연처럼 정보를 입력해 등록 액션을 하게되면
+### 해당 서블렛에서 정보를 받아 Service를 거쳐 DAO에서 DATA를 처리하게됩니다.
 ![RangInsertCont](https://user-images.githubusercontent.com/53084458/82750204-712df700-9de9-11ea-8e8a-e08ff88a3c00.jpg)
+
+#
+### 로직을 거쳐 정보를 받은 DAO는 JDBC를 이용하여 DB에 정보를 가공 처리합니다.
 ![RangInsertSQL](https://user-images.githubusercontent.com/53084458/82750209-74c17e00-9de9-11ea-8f02-825947d2fb85.jpg)
+#
+### 이렇게 처리된 DATA는 사용자 요청에 따라 oracle DB의 정보를 입력, 수정하게 되고,
+### 처리된 DATA를 기반으로 다시 View에 출력하게 됩니다.
 #
 
 ## 게시글 수정과 삭제 시연입니다.
 
+#
 
 ![게시글수정삭제](https://user-images.githubusercontent.com/53084458/82644845-f62fd980-9c4c-11ea-80bd-0bc262bca87e.gif)
+
+#
+
 ![RangUpdate](https://user-images.githubusercontent.com/53084458/82750214-78ed9b80-9de9-11ea-9a7e-debe799ac6fb.jpg)
+
+#
+### DAO코드입니다.
+#
+
 ![RangUpdateDAO](https://user-images.githubusercontent.com/53084458/82750216-7b4ff580-9de9-11ea-9e06-f35a34d2fda5.jpg)
+## 간단설명.
+### 기존정보에서 수정될 정보를 받아 PreparedStatement를 통해 SQL을 실행하게 됩니다.
+### (SQL:UPDATE TBOARD SET TBTITLE = ?, TBCONTENT = ?, TBFILE = ? WHERE TBNO = ?)
+### JAVA의 코드는 위에서 아래로 순차적으로 처리되며, "pstmt.setString(1, tb.getTbTitle());"부터 실행
+### SQL문의 첫번째 "?"부터 DATA를 처리해 수정작업이 이루어집니다.
+
+#
+### properties를 활용하여 JAVA코드와 SQL코드를 별도관리하여 
+### 유지보수측면에서 이점을 발휘하는것을 배웠습니다.
+![게시판SQL프로퍼티관리](https://user-images.githubusercontent.com/53084458/82750218-7d19b900-9de9-11ea-9db5-3c8f206c5eb2.jpg)
 
 #
 
@@ -221,7 +258,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 ![댓글시연](https://user-images.githubusercontent.com/53084458/82644988-24151e00-9c4d-11ea-8d4a-3c2c85963134.gif)
 #
-![게시판SQL프로퍼티관리](https://user-images.githubusercontent.com/53084458/82750218-7d19b900-9de9-11ea-9db5-3c8f206c5eb2.jpg)
+
 
 - Rang 프로젝트 DB설계
 ![5조 랑ppt 최종 (1)_30](https://user-images.githubusercontent.com/53084458/82640993-95050780-9c46-11ea-839f-6e54fbad4f00.png)
