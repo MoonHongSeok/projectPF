@@ -295,7 +295,6 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ### 게시판 페이징처리 코드입니다.
 ![RangPage처리](https://user-images.githubusercontent.com/53084458/82750210-768b4180-9de9-11ea-96ee-3713022ea7c8.jpg)
 
-### ----
 
 #
 
@@ -306,7 +305,6 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ![댓글시연](https://user-images.githubusercontent.com/53084458/82644988-24151e00-9c4d-11ea-8d4a-3c2c85963134.gif)
 #
 
-### ----
 
 
 - Rang 프로젝트 DB설계
