@@ -186,22 +186,27 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #### 한눈에 들어와야할 종합데이터를 표현하기엔 적절하지 않다고 판단되어 좀 더 상세하게 표현 가능한
 #### 승률 통계 페이지에서만 활용하게 되었습니다.
 
-#
+## 파싱하여 저장된 DATA를 사용해 승률을 계산한 쿼리입니다.
+
+![승률통계쿼리](https://user-images.githubusercontent.com/53084458/82923319-ba32a680-9fb5-11ea-8fc7-a039c6402c97.jpg)
 
 ## Chart.js 코드입니다.
 
 ![chartjs보완](https://user-images.githubusercontent.com/53084458/82922967-409ab880-9fb5-11ea-8da8-74e204a4ba39.jpg)
 
+- canvas태그를 사용해 id값을 호출하여 사용합니다.
+
+#
+
 <img width="714" alt="차트제이에스" src="https://user-images.githubusercontent.com/53084458/82663588-e7f0b600-9c6a-11ea-932f-93ed55163bd0.png">
 
-#### canvas태그를 사용해 id값을 호출하여 사용합니다.
-#### 
+- 어떤 그래프타입을 사용할 것인지, 세부적인 css를 설정합니다.
 
 #
 
 ![3 승률통계](https://user-images.githubusercontent.com/53084458/82663581-e626f280-9c6a-11ea-8241-04d5136341e6.jpg)
 
-- 승률에 대해 그래프로 표현하여 숫자를 보다 확인하기 쉽게 사용자 중점으로 디자인 하였습니다. 
+- 승률에 대해 그래프로 표현하여 숫자를 보다 확인하기 쉽게 사용자 중점으로 표현 하였습니다. 
 
 
 
@@ -210,7 +215,6 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 
 ## fifteen.GG 프로젝트 였습니다. 
-#
 #
 
 # 첫번째 프로젝트 "Rang"
