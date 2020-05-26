@@ -140,8 +140,29 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ## 2. 챔피언 통계 페이지입니다.
 ### Jquery의 Data Table Library를 활용하여 틀을 만들고 CSS로 그래프를 표현했습니다. 
 ### 그래프는 실제 DB를 기반으로 변동됩니다.
+#
+
+## Riot(Rest) API 파싱하기
+
+![파싱1](https://user-images.githubusercontent.com/53084458/82916416-f9102e80-9fac-11ea-8532-2aacafcc7c17.jpg)
+
+- Rest API로부터 받아온 json형식의 DATA를 gson을 사용 클래스매핑하여 파싱하였습니다.
 
 #
+
+![파싱2](https://user-images.githubusercontent.com/53084458/82916408-f6153e00-9fac-11ea-8c42-41b3a7b03d45.jpg)
+
+- 파싱된 DATA를 DB에 저장.
+
+#
+
+![파싱DB](https://user-images.githubusercontent.com/53084458/82916414-f8779800-9fac-11ea-9bf9-fcc6cd9c0225.jpg)
+
+- 위 과정을 통하여 해당 테이블에 저장됩니다.
+
+#
+
+### 저장된 정보를 바탕으로 통계자료 수치화 및 시각화
 
 ![데이터테이블시연자료](https://user-images.githubusercontent.com/53084458/82663564-dd362100-9c6a-11ea-86bf-de71cff8c732.gif)
 - 챔피언(사진) 클릭시 팀원이 구현한 챔피언 상세정보 페이지로 이동합니다.
