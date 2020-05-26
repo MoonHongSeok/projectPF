@@ -165,7 +165,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 #
 
-## 저장된 정보를 바탕으로 통계자료 수치화 및 시각화
+## 가공된(수치화) 통계자료를 시각적으로 표현
 
 
 ![종합통계프론트](https://user-images.githubusercontent.com/53084458/82924574-7ccf1880-9fb7-11ea-8a54-bd12e337cc65.jpg)
