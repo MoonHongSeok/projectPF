@@ -68,7 +68,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 ## Controller를 통해 나타낼 DATA, DATA의 가공처리등을 책임지는 "Model"입니다.  
   
-### 첫째로 Model Service입니다.
+### Model Service입니다.
 
 ![partyService](https://user-images.githubusercontent.com/53084458/82750201-6f643380-9de9-11ea-9405-be16a9ed16d9.jpg)
 
@@ -80,7 +80,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #
 
 #### 어노테이션 경우 더 높은 계층 @Component라는 어노테이션이 존재하지만
-#### 구체적으로 @Controller, @Service, @Repository을 사용하게되면 시각적으로 더욱 판단하기 편리합니다.
+#### 구체적으로 @Controller, @Service, @Repository 어노테이션을 사용하게되면 시각적으로 더욱 판단하기 편리합니다.
 ##
 ### 흐름
 #### 사용자가 View에서 액션을 하게되면 Controller에서 액션에 맞게 Model로 정보를 전달하게 됩니다.
@@ -101,7 +101,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 #
 
-## 게시글 작성 페이지 시연입니다.
+## 게시글 작성 시연입니다.
 
 ![게시글작성](https://user-images.githubusercontent.com/53084458/82656301-7c085080-9c5e-11ea-9ac4-e07c08394f8c.gif)
 
@@ -116,13 +116,6 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 - SQL을 공부하며 조건문 실수가 아닌이상 100% 정확한 결과만을 출력하는데서 이를 검색에 활용하였습니다.
 
 ##
-
-
-##
-## 검색 시연입니다.
-
-![검색시연자료](https://user-images.githubusercontent.com/53084458/82661296-b675eb80-9c66-11ea-93b4-38f2cc7ce0ee.gif)
-
 ### 기능구현 초기 JDBC방식의 SQL로는 검색구현에 문제가 많았습니다. 
 ### 하지만 myBatis를 적용하면서 검색시 상황에 맞는 동적쿼리를 적용해 올바른 결괏값을 가져올 수 있었습니다.
 
@@ -131,7 +124,11 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 - 사용자가 검색 액션을 하게되면 동작하는 쿼리입니다.
 - choose태그 안에서 조건에 따라 when또는 otherwise의 코드가 실행됩니다. 
 
-##
+## 검색 시연입니다.
+
+![검색시연자료](https://user-images.githubusercontent.com/53084458/82661296-b675eb80-9c66-11ea-93b4-38f2cc7ce0ee.gif)
+
+#
 ## 2. 챔피언 통계 페이지입니다.
 ### Jquery의 Data Table Library를 활용하여 틀을 만들고 CSS로 그래프를 표현했습니다. 
 ### 그래프는 실제 DB를 기반으로 변동됩니다.
@@ -158,6 +155,16 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 #
 
+### 통계를 수치화 하기 위한 쿼리입니다.
+
+<img width="672" alt="통계테이블쿼리문" src="https://user-images.githubusercontent.com/53084458/82663570-e0311180-9c6a-11ea-85b0-777ffe50beb7.png">
+
+#### 처음에는 카테시안 곱 발생, GROUP조건, JOIN에서 많은 문제가 있었지만 각 COLUMN별로 다시 정리해가며
+#### 알맞은 테이블 JOIN과 GROUP찾아 카테시안 곱을 해결할 수 있었고 챔피언별 통계 구조의 다중서브쿼리를 완성할 수 있었습니다.
+
+
+#
+
 ### 저장된 정보를 바탕으로 통계자료 수치화 및 시각화
 
 ![데이터테이블시연자료](https://user-images.githubusercontent.com/53084458/82663564-dd362100-9c6a-11ea-86bf-de71cff8c732.gif)
@@ -165,19 +172,13 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 #
 
-### 통계를 위한 쿼리입니다.
-#### 처음에는 카테시안 곱 발생, GROUP조건, JOIN에서 많은 문제가 있었지만 각 COLUMN별로 다시 정리해가며
-#### 알맞은 테이블 JOIN과 GROUP찾아 카테시안 곱을 해결할 수 있었고 챔피언별 통계 구조의 다중서브쿼리를 완성할 수 있었습니다.
-
-<img width="672" alt="통계테이블쿼리문" src="https://user-images.githubusercontent.com/53084458/82663570-e0311180-9c6a-11ea-85b0-777ffe50beb7.png">
-
-##
 
 ### myBatis
 #### 첫단에 명시되는 select, update, delete, insert 등의 요소에 집중되도록 설계 되어 빠르고
 #### JDBC와 비교해 매우 짧아진 코드로 가독성, 생산성, 유지보수등 이점이 많은 프레임워크임을 배웠습니다.
-
 #
+
+
 
 ## 3. 승률 통계 페이지입니다.
 ### Chart.js를 활용하여 DATA를 시각과 하였습니다.
@@ -185,15 +186,21 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #### 한눈에 들어와야할 종합데이터를 표현하기엔 적절하지 않다고 판단되어 좀 더 상세하게 표현 가능한
 #### 승률 통계 페이지에서만 활용하게 되었습니다.
 
+#
+
+## Chart.js 코드입니다.
+
+<img width="714" alt="차트제이에스" src="https://user-images.githubusercontent.com/53084458/82663588-e7f0b600-9c6a-11ea-932f-93ed55163bd0.png">
+
+#### canvas태그를 사용해 id값을 호출하여 사용합니다.
+#### 
+
+#
+
 ![3 승률통계](https://user-images.githubusercontent.com/53084458/82663581-e626f280-9c6a-11ea-8241-04d5136341e6.jpg)
 
 - 승률에 대해 그래프로 표현하여 숫자를 보다 확인하기 쉽게 사용자 중점으로 디자인 하였습니다. 
 
-#
-
-### Chart.js 코드입니다.
-
-<img width="714" alt="차트제이에스" src="https://user-images.githubusercontent.com/53084458/82663588-e7f0b600-9c6a-11ea-932f-93ed55163bd0.png">
 
 
 #
