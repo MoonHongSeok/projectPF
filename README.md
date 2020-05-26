@@ -190,6 +190,8 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 ## Chart.js 코드입니다.
 
+![chartjs보완](https://user-images.githubusercontent.com/53084458/82922967-409ab880-9fb5-11ea-8da8-74e204a4ba39.jpg)
+
 <img width="714" alt="차트제이에스" src="https://user-images.githubusercontent.com/53084458/82663588-e7f0b600-9c6a-11ea-932f-93ed55163bd0.png">
 
 #### canvas태그를 사용해 id값을 호출하여 사용합니다.
