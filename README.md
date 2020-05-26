@@ -151,14 +151,15 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #
 
 ![파싱2](https://user-images.githubusercontent.com/53084458/82916408-f6153e00-9fac-11ea-8c42-41b3a7b03d45.jpg)
+![파싱쿼리](https://user-images.githubusercontent.com/53084458/82919320-d4b65100-9fb0-11ea-9ef9-8087c285a4a2.jpg)
 
-- 파싱된 DATA를 DB에 저장.
+- 파싱된 DATA를 Service->DAO->Mapper.xml거쳐 INSERT 쿼리를 통하여 저장됩니다.
 
 #
 
 ![파싱DB](https://user-images.githubusercontent.com/53084458/82916414-f8779800-9fac-11ea-9bf9-fcc6cd9c0225.jpg)
 
-- 위 과정을 통하여 해당 테이블에 저장됩니다.
+- 위 과정을 통하여 저장되는 테이블입니다.
 
 #
 
