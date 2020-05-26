@@ -73,19 +73,14 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ![partyService](https://user-images.githubusercontent.com/53084458/82750201-6f643380-9de9-11ea-9405-be16a9ed16d9.jpg)
 
 - @Service로 Repository를 통해 DB에서 DATA를 가져온 후 Controller에 전달해주는 클래스임을 명시했습니다.
+- @Repository로 DAO에서는 해당 클래스가 DB에 접근하는 클래스임을 명시했습니다.
+- DAO에서 @Autowired sqlSession 의존성을 주입했습니다.
+- sqlSessionTemplate의 경우 commit과 rollback등으로 mapper의 관리를 도와줍니다.
 
 #
 
-### Model DAO입니다.
-
-![partyDAO](https://user-images.githubusercontent.com/53084458/82750198-6d9a7000-9de9-11ea-9132-d908cca8e957.jpg)
-
-- @Repository로 해당 클래스가 DB에 접근하는 클래스임을 명시했습니다.
-- @Autowired로 sqlSession 의존성을 주입했습니다.
-- sqlSessionTemplate의 경우 commit과 rollback등으로 mapper의 관리를 도와줍니다.
-
-#### @Controller, @Service, @Repository의 어노테이션 경우 더 높은 계층 @Component라는 어노테이션이 존재하지만
-#### 구체적으로 사용하게되면 시각적으로 더욱 판단하기 편리합니다.
+#### 어노테이션 경우 더 높은 계층 @Component라는 어노테이션이 존재하지만
+#### 구체적으로 @Controller, @Service, @Repository을 사용하게되면 시각적으로 더욱 판단하기 편리합니다.
 ##
 ### 흐름
 #### 사용자가 View에서 액션을 하게되면 Controller에서 액션에 맞게 Model로 정보를 전달하게 됩니다.
