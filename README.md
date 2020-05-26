@@ -206,13 +206,13 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 ![chartjs보완](https://user-images.githubusercontent.com/53084458/82922967-409ab880-9fb5-11ea-8da8-74e204a4ba39.jpg)
 
-- canvas태그를 사용해 id값을 호출하여 사용합니다.
+- canvas태그를 사용해 id를 정해주고 기본적인 사이즈를 설정합니다.
 
 #
 
 <img width="714" alt="차트제이에스" src="https://user-images.githubusercontent.com/53084458/82663588-e7f0b600-9c6a-11ea-932f-93ed55163bd0.png">
 
-- 어떤 그래프타입을 사용할 것인지, 크기와 색상등 세부적인 css를 설정합니다.
+- 해당 id를 호출해 어떤 그래프타입을 사용할 것인지, 크기와 색상등 세부적인 css를 설정합니다.
 
 #
 
