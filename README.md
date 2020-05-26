@@ -166,6 +166,17 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #
 
 ### 저장된 정보를 바탕으로 통계자료 수치화 및 시각화
+#
+
+![종합통계프론트](https://user-images.githubusercontent.com/53084458/82924574-7ccf1880-9fb7-11ea-8a54-bd12e337cc65.jpg)
+
+- 빨간줄:그래프의 길이를 나타냅니다.
+- 파란줄:그래프의 색상을 나타냅니다.
+- 녹색줄:통계수치를 보여줍니다.
+
+#
+
+# 통계테이블 최종 출력
 
 ![데이터테이블시연자료](https://user-images.githubusercontent.com/53084458/82663564-dd362100-9c6a-11ea-86bf-de71cff8c732.gif)
 - 챔피언(사진) 클릭시 팀원이 구현한 챔피언 상세정보 페이지로 이동합니다.
@@ -200,7 +211,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 <img width="714" alt="차트제이에스" src="https://user-images.githubusercontent.com/53084458/82663588-e7f0b600-9c6a-11ea-932f-93ed55163bd0.png">
 
-- 어떤 그래프타입을 사용할 것인지, 세부적인 css를 설정합니다.
+- 어떤 그래프타입을 사용할 것인지, 크기와 색상등 세부적인 css를 설정합니다.
 
 #
 
