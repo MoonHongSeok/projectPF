@@ -81,7 +81,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 #### 어노테이션 경우 더 높은 계층 @Component라는 어노테이션이 존재하지만
 #### 구체적으로 @Controller, @Service, @Repository 어노테이션을 사용하게되면 시각적으로 더욱 판단하기 편리합니다.
-##
+#
 ### 흐름
 #### 사용자가 View에서 액션을 하게되면 Controller에서 액션에 맞게 Model로 정보를 전달하게 됩니다.
 #### Model에서는 DB까지 사용자 요청에 맞게 DATA를 저장, 수정 등 올바르게 가공하여
