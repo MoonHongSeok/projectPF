@@ -43,13 +43,13 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ![사용 툴](https://user-images.githubusercontent.com/53084458/83226348-c3da2b00-a1bc-11ea-8263-09bcc5800b0c.jpg)
 
 ### - 사용 언어 : JAVA, JavaScript
-- 툴 : Spring, Oracle
-- 서버 : apache Tomcat
-- JSP : JSTL
-- 홈페이지는 HTML기반이며 디자인은 css, 부트스트랩4 사용
-- 사용 API : Riot Games의 Rest API 사용
-- 라이브러리 : gson, Jquery, myBaits
-- 형상관리 : github
+### - 툴 : Spring, Oracle
+### - 서버 : apache Tomcat
+### - JSP : JSTL
+### - 홈페이지는 HTML기반이며 디자인은 css, 부트스트랩4 사용
+### - 사용 API : Riot Games의 Rest API 사용
+### - 라이브러리 : gson, Jquery, myBaits
+### - 형상관리 : github
 
 #
 
