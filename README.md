@@ -44,7 +44,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 ### - 사용 언어 : JAVA, JavaScript
 ### - 툴 : Spring, Oracle
-### - 서버 : apache Tomcat
+### - 서버 : apache Tomcat > JSP
 ### - 홈페이지는 HTML기반이며 디자인은 css, 부트스트랩4 사용
 ### - 사용 API : Riot Games의 Rest API 사용
 ### - 라이브러리 : gson, Jquery, myBaits
@@ -215,11 +215,6 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #
 #
 #
-#
-#
-#
-#
-#
 
 # 첫번째 프로젝트 "Rang"
 
@@ -232,24 +227,64 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 ### 2019년 11월 4일 ~ 2019년 12월 20일.
 
+#
+
+![개발도구](https://user-images.githubusercontent.com/53084458/83231038-d0af4c80-a1c5-11ea-8817-e8000e8bd063.jpg)
+
+### - 사용 언어 : JAVA, JavaScript
+### - 툴 : eclipse, Oracle
+### - 서버 : apache Tomcat > servlet
+### - HTML기반의 홈페이지, css, 부트스트랩4 사용
+### - 사용 API : google Map
+### - 형상관리 : github
+
+#
 
 ## DB 설계
-![5조 랑ppt 최종 (1)_30](https://user-images.githubusercontent.com/53084458/82640993-95050780-9c46-11ea-839f-6e54fbad4f00.png)
+![랑DB설계](https://user-images.githubusercontent.com/53084458/83231044-d147e300-a1c5-11ea-8e13-b24e7a09faac.jpg)
 
 
 
 
 #
 
-### 담당페이지 설명 및 시연자료
-#### Rang 프로젝트에서 "너랑나랑" 페이지를 담당하여, 
+### 담당페이지 : 너랑나랑
 #### MVC패턴을 기반으로 게시판의 기본적 데이터처리 기능인 Create, Read, Update, Delete 구성하여
-#### 게시글 작성, 출력, 수정, 삭제로 기능을 구현하였습니다.
+#### 게시글 작성, 출력, 수정, 삭제로 기능을 구현
 
 #
 
-## 너랑나랑 페이지.
 ### 너랑나랑 페이지는 함께 여행할 동료, 친구를 찾는 공간입니다.
+
+
+#
+
+
+### 먼저 정보를 입력해 등록 액션을 하게되면
+### 해당 서블렛에서 정보를 받아 Service를 거쳐 DAO에서 DATA를 처리하게됩니다.
+![RangInsertCont](https://user-images.githubusercontent.com/53084458/82750204-712df700-9de9-11ea-8e8a-e08ff88a3c00.jpg)
+
+#
+
+### 정보를 받은 DAO는 JDBC를 이용하여 DB까지 올바르게 정보를 가공 처리합니다.
+![RangInsertSQL](https://user-images.githubusercontent.com/53084458/82750209-74c17e00-9de9-11ea-8f02-825947d2fb85.jpg)
+
+#
+
+### 이렇게 처리된 DATA는 사용자 요청에 따라 oracle DB의 정보를 입력하게 되고
+### 처리된 DATA를 기반으로 다시 View에 출력합니다.
+#
+## 게시글 작성 시연입니다.
+
+#
+
+![게시글작성](https://user-images.githubusercontent.com/53084458/82644602-8c173480-9c4c-11ea-9a10-03ad688e6022.gif)
+### - 기능을 구현하면서 MVC패턴에 대해 깊이 이해할 수 있었습니다.
+#
+
+
+#
+
 #### 참여하기 기능에서 실제 버튼을 눌렀는지, 누르지 않았는지를 실제 DATA로 비교하여
 #### 데이터 무결성을 구현하고자 했습니다.
 
@@ -275,32 +310,6 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 #
 
-
-## 게시글 작성 시연입니다.
-
-### JDBC방식을 적용하여 DATA를 DB까지 올바르게 전달하고 올바르게 전달 된 DATA를 
-### 게시판 List에 출력할 수 있었습니다. 또 기능들을 구현하면서 MVC패턴에 대해 깊이 이해할 수 있었습니다.
-#
-
-![게시글작성](https://user-images.githubusercontent.com/53084458/82644602-8c173480-9c4c-11ea-9a10-03ad688e6022.gif)
-#
-### 먼저 위 시연처럼 정보를 입력해 등록 액션을 하게되면
-### 해당 서블렛에서 정보를 받아 Service를 거쳐 DAO에서 DATA를 처리하게됩니다.
-![RangInsertCont](https://user-images.githubusercontent.com/53084458/82750204-712df700-9de9-11ea-8e8a-e08ff88a3c00.jpg)
-
-#
-### 정보를 받은 DAO는 JDBC를 이용하여 DB까지 올바르게 정보를 가공 처리합니다.
-![RangInsertSQL](https://user-images.githubusercontent.com/53084458/82750209-74c17e00-9de9-11ea-8f02-825947d2fb85.jpg)
-#
-### 이렇게 처리된 DATA는 사용자 요청에 따라 oracle DB의 정보를 입력하게 되고
-### 처리된 DATA를 기반으로 다시 View에 출력하게 됩니다.
-#
-
-## 게시글 수정과 삭제 시연입니다.
-
-![게시글수정삭제](https://user-images.githubusercontent.com/53084458/82644845-f62fd980-9c4c-11ea-80bd-0bc262bca87e.gif)
-
-#
 
 ![RangUpdate](https://user-images.githubusercontent.com/53084458/82750214-78ed9b80-9de9-11ea-9a7e-debe799ac6fb.jpg)
 
@@ -328,22 +337,25 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 #
 
-### 게시판 페이징처리 코드입니다.
-![RangPage처리](https://user-images.githubusercontent.com/53084458/82750210-768b4180-9de9-11ea-96ee-3713022ea7c8.jpg)
+## 수정, 삭제 시연입니다.
 
+![게시글수정삭제](https://user-images.githubusercontent.com/53084458/82644845-f62fd980-9c4c-11ea-80bd-0bc262bca87e.gif)
 
 #
 
 
-## 상세페이지에서 댓글 등록,수정,삭제하는 시연입니다.
+
+
+## 상세페이지에서 댓글 등록,수정,삭제 시연입니다.
 
 
 ![댓글시연](https://user-images.githubusercontent.com/53084458/82644988-24151e00-9c4d-11ea-8d4a-3c2c85963134.gif)
 #
 
 
+![5조 랑ppt 최종 (1)_64](https://user-images.githubusercontent.com/53084458/83231034-cf7e1f80-a1c5-11ea-9d34-e588c471b300.png)
 
-### END;
+
 
 
 
