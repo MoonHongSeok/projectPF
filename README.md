@@ -106,7 +106,8 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 
 ### 제목은 자동으로 매핑됩니다.
-- 인터넷엔 동의어가 많습니다, 게임용어는 더욱 그렇습니다. 제목을 일정한 패턴으로 통일시켜 이를 검색에 활용하였습니다.
+- 줄임말로 인해 뜻은 같지만 낱말이 다른 단어가 많습니다. ex)서폿 == 서포터
+- 제목을 일정한 패턴으로 통일시켜 이를 검색에 활용하였습니다.
 
 
 ##
@@ -310,8 +311,11 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 #
 
+## 게시글 수정
 
 ![RangUpdate](https://user-images.githubusercontent.com/53084458/82750214-78ed9b80-9de9-11ea-9a7e-debe799ac6fb.jpg)
+
+### - UPDATE된 객체는 Service->DAO로 전달됩니다.
 
 #
 ### DAO코드입니다.
@@ -319,21 +323,10 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 ![RangUpdateDAO](https://user-images.githubusercontent.com/53084458/82750216-7b4ff580-9de9-11ea-9e06-f35a34d2fda5.jpg)
 
-#
-
-### 기존정보에서 수정될 정보를 받아 PreparedStatement를 통해 SQL을 실행하게 됩니다.
-### (SQL:UPDATE TBOARD SET TBTITLE = ?, TBCONTENT = ?, TBFILE = ? WHERE TBNO = ?)
-### JAVA의 코드는 위에서 아래로 순차적으로 처리되며, "pstmt.setString(1, tb.getTbTitle());"부터 실행
-### SQL문의 첫번째 "?"부터 DATA를 처리해 수정작업이 이루어집니다.
-
-#
-
-## Properties 활용
-
-![게시판SQL프로퍼티관리](https://user-images.githubusercontent.com/53084458/82750218-7d19b900-9de9-11ea-9db5-3c8f206c5eb2.jpg)
+### - 전달받은 객체는 prepareStatement로 sql을 실행 DB DATA를 수정합니다.
 
 ### properties를 활용하여 JAVA코드와 SQL코드를 별도관리하여 
-### 유지보수측면에서 이점을 발휘하는것을 배웠습니다.
+### 유지보수측면에서 유리
 
 #
 
@@ -350,6 +343,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 
 ![댓글시연](https://user-images.githubusercontent.com/53084458/82644988-24151e00-9c4d-11ea-8d4a-3c2c85963134.gif)
+
 #
 
 
