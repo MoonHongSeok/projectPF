@@ -110,25 +110,26 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 
 ##
-## 검색
+# 검색
 
 <img width="483" alt="동적쿼리검색용첨부" src="https://user-images.githubusercontent.com/53084458/82661302-b8d84580-9c66-11ea-932c-8488274b257a.png">
 
 - 사용자가 검색 액션을 하게되면 동작하는 쿼리입니다.
-- choose태그 안에서 조건에 따라 when또는 otherwise의 코드가 실행됩니다. 
+
 
 ## 검색 시연입니다.
 
 ![검색시연자료](https://user-images.githubusercontent.com/53084458/82661296-b675eb80-9c66-11ea-93b4-38f2cc7ce0ee.gif)
 
-### 검색은 Select를 활용했습니다.
+### 사용자가 select로 조건을 맞춰가며 검색합니다.
 - 일정한 패턴의 제목은 여러번 검색할 필요가 없습니다. 3가지 조건만으로 양질의 결괏값을 반환합니다.
-- SQL을 공부하며 조건문 실수가 아닌이상 100% 정확한 결과만을 출력하는데서 이를 검색에 활용하였습니다.
+
 
 #
 ## 2. 챔피언 통계 페이지입니다.
-### Jquery의 Data Table Library를 활용하여 틀을 만들고 CSS로 그래프를 표현했습니다. 
-### 그래프는 실제 DB를 기반으로 변동됩니다.
+### - gson 라이브러리로 json파싱
+### - 저장된 데이터는 테이블JOIN 및 Group 통계수치화 가공
+### - Jquery의 Data Table Library를 활용하여 틀을 만들고 CSS로 그래프를 표현 출력합니다.
 #
 
 ## Riot(Rest) API 파싱하기
@@ -142,7 +143,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ![파싱2](https://user-images.githubusercontent.com/53084458/82916408-f6153e00-9fac-11ea-8c42-41b3a7b03d45.jpg)
 ![파싱쿼리](https://user-images.githubusercontent.com/53084458/82919320-d4b65100-9fb0-11ea-9ef9-8087c285a4a2.jpg)
 
-- 파싱된 DATA는 vo->Service->DAO->Mapper.xml거쳐 INSERT 쿼리를 통하여 저장됩니다.
+- 파싱된 DATA는 vo->Service->DAO->Mapper.xml->INSERT 쿼리를 통하여 저장됩니다.
 
 #
 
@@ -177,25 +178,17 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ## 통계테이블 최종 출력
 
 ![데이터테이블시연자료](https://user-images.githubusercontent.com/53084458/82663564-dd362100-9c6a-11ea-86bf-de71cff8c732.gif)
+
 - 챔피언(사진) 클릭시 팀원이 구현한 챔피언 상세정보 페이지로 이동합니다.
 
 #
 
 
-### myBatis
-#### 첫단에 명시되는 select, update, delete, insert 등의 요소에 집중되도록 설계 되어 빠르고
-#### JDBC와 비교해 매우 짧아진 코드로 가독성, 생산성, 유지보수등 이점이 많은 프레임워크임을 배웠습니다.
-#
-
-
-
 ## 3. 승률 통계 페이지입니다.
-### Chart.js를 활용하여 DATA를 시각과 하였습니다.
-#### 처음에는 챔피언 통계 페이지에 활용할 목적이었으나, 공부를 할수록
-#### 한눈에 들어와야할 종합데이터를 표현하기엔 적절하지 않다고 판단되어 좀 더 상세하게 표현 가능한
-#### 승률 통계 페이지에서만 활용하게 되었습니다.
+### - Chart.js를 활용하여 DATA를 시각화 하였습니다.
 
-## 파싱하여 저장된 DATA를 사용해 승률을 계산한 쿼리입니다.
+
+## 파싱한 DATA를 사용 승률을 계산한 쿼리입니다.
 
 ![승률통계쿼리](https://user-images.githubusercontent.com/53084458/82923319-ba32a680-9fb5-11ea-8fc7-a039c6402c97.jpg)
 
@@ -217,11 +210,7 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 - 승률에 대해 그래프로 표현하여 숫자를 보다 확인하기 쉽게 사용자 중점으로 표현 하였습니다. 
 
-#
-### 항상 아쉬움이 남지만 뒤돌아보면
-### 처음 "Rang프로젝트" 당시 CRUD기능만큼은 해내려 했던 자신보다
-### 성장했음을 느껴 개인적으로 굉장히 뿌듯했던
-## fifteen.GG 프로젝트 였습니다. 
+## fifteen.GG                           END
 
 #
 #
@@ -234,16 +223,18 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 # 첫번째 프로젝트 "Rang"
 
-## 저의 첫번째 프로젝트인 "Rang"입니다.
 #### 여행을 공유하여 나의 여행을 다른사람들과 소통, 함께할 일행구하기 그리고
 #### 다른사람의 여행을 참고하여 나의 여행을 디자인할 수 있는 플랫폼을 목적으로 진행하였습니다.
-
 
 ### 일정
 
 ![세미프로젝트 타임라인](https://user-images.githubusercontent.com/53084458/82647471-35f8c000-9c51-11ea-97e1-7bd58b5e0ec7.jpg)
 
 ### 2019년 11월 4일 ~ 2019년 12월 20일.
+
+
+## DB 설계
+![5조 랑ppt 최종 (1)_30](https://user-images.githubusercontent.com/53084458/82640993-95050780-9c46-11ea-839f-6e54fbad4f00.png)
 
 
 
@@ -351,9 +342,6 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 #
 
 
-
-- Rang 프로젝트 DB설계
-![5조 랑ppt 최종 (1)_30](https://user-images.githubusercontent.com/53084458/82640993-95050780-9c46-11ea-839f-6e54fbad4f00.png)
 
 ### END;
 
