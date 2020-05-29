@@ -34,7 +34,22 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 
 ![개발일정15gg](https://user-images.githubusercontent.com/53084458/82660573-9265da80-9c65-11ea-9fec-b4365a025c15.jpg)
 
+
+
 ### 2019년 12월 23일 ~ 2020년 1월 23일.
+
+#
+
+![사용 툴](https://user-images.githubusercontent.com/53084458/83225700-5083e980-a1bb-11ea-9fa7-32acfa32d046.jpg)
+- 사용 언어 : JAVA, JavaScript
+- 홈페이지는 HTML기반이며 디자인은 Jquery, css, 부트스트랩4 사용
+- Riot Games의 Rest API 사용
+
+![db1](https://user-images.githubusercontent.com/53084458/83225697-4eba2600-a1bb-11ea-8c0b-ec5aaf935ebf.jpg)
+![db](https://user-images.githubusercontent.com/53084458/83225703-511c8000-a1bb-11ea-918d-e007cb946542.jpg)
+
+- DB 설계
+
 
 #
 
