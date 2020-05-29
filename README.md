@@ -51,10 +51,14 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 - 라이브러리 : gson, Jquery, myBaits
 - 형상관리 : github
 
+#
+
+## DB 설계
+
 ![db1](https://user-images.githubusercontent.com/53084458/83225697-4eba2600-a1bb-11ea-8c0b-ec5aaf935ebf.jpg)
 ![db](https://user-images.githubusercontent.com/53084458/83225703-511c8000-a1bb-11ea-918d-e007cb946542.jpg)
 
-- DB 설계
+
 
 
 #
