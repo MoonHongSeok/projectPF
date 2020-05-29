@@ -71,38 +71,14 @@ DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
 ### "듀오찾기 게시판"은 게시글 작성, 검색, 목록을 한 페이지에 담아냈습니다.
  - 게이머 특성상 페이지에 오래 머무르지 않아 짧은시간에 많은 정보를 나타내기 위함입니다.
  - 연장선으로 게시글 내용도 클릭없이 바로 보이며, 클릭시 작성 닉네임값으로 팀원이 구현한 검색페이지로 이동됩니다.
- ###
+###
 ### "듀오찾기 게시판"은 게시글 삭제가 필요 없습니다.
 - 한사람이 짧은시간에 여러 게시물을 올릴 수 있기때문에 불필요한 중복을 처리해야 했습니다.
 - 하지만 시각적 표현이 필요하여 취소선으로 대체되었습니다.
-#
-
-## 화면 게시물등록, 검색, 목록등을 구현한 Spring MVC패턴 코드입니다.
-### 사용자가 화면에서 액션이 취해지면 이벤트를 처리하는 "Controller"입니다.
-#
-
-![partyController](https://user-images.githubusercontent.com/53084458/82750191-6a9f7f80-9de9-11ea-9781-358d1979e8b5.jpg)
-
-- @RequestMapping 어노테이션으로 어떤 Controller로 처리할지 경로를 설정했습니다.
-- @Autowired로 의존하는 객체(Service)를 주입시켰습니다.
-#
-
-## Controller를 통해 나타낼 DATA, DATA의 가공처리등을 책임지는 "Model"입니다.  
-  
-### Model Service입니다.
-
-![partyService](https://user-images.githubusercontent.com/53084458/82750201-6f643380-9de9-11ea-9405-be16a9ed16d9.jpg)
-
-- @Service로 Repository를 통해 DB에서 DATA를 가져온 후 Controller에 전달해주는 클래스임을 명시했습니다.
-- @Repository로 DAO에서는 해당 클래스가 DB에 접근하는 클래스임을 명시했습니다.
-- DAO에서 @Autowired sqlSession 의존성을 주입했습니다.
-- sqlSessionTemplate의 경우 commit과 rollback등으로 mapper의 관리를 도와줍니다.
 
 #
 
-#### 어노테이션 경우 더 높은 계층 @Component라는 어노테이션이 존재하지만
-#### 구체적으로 @Controller, @Service, @Repository 어노테이션을 사용하게되면 시각적으로 더욱 판단하기 편리합니다.
-#
+
 ### 흐름
 #### 사용자가 View에서 액션을 하게되면 Controller에서 액션에 맞게 Model로 정보를 전달하게 됩니다.
 #### Model에서는 DB까지 사용자 요청에 맞게 DATA를 저장, 수정 등 올바르게 가공하여
