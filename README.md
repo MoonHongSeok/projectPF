@@ -318,14 +318,6 @@
 
 
 
-## 상세페이지에서 댓글 등록,수정,삭제 시연입니다.
-
-
-![댓글시연](https://user-images.githubusercontent.com/53084458/82644988-24151e00-9c4d-11ea-8d4a-3c2c85963134.gif)
-
-#
-
-
 ![5조 랑ppt 최종 (1)_64](https://user-images.githubusercontent.com/53084458/83231034-cf7e1f80-a1c5-11ea-9d34-e588c471b300.png)
 
 
