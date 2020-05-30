@@ -9,7 +9,7 @@
 # Riot Games의 Rest API를 활용한 "fifteenGG" 프로젝트
 
 - 듀오찾기 게시판으로 같이 플레이할 유저를 매칭합니다.
-- 게임 빅데이터를 활용하기 위한 Riot API(Rest API)를 사용하여 데이터를 수집했습니다.
+- 게임 빅데이터를 활용하기 위한 Rest API를 사용하여 데이터를 수집했습니다.
 - 빅데이터를 기반으로 통계수치화 및 시각화 하였습니다.
 
 ![개발일정15gg](https://user-images.githubusercontent.com/53084458/82660573-9265da80-9c65-11ea-9fec-b4365a025c15.jpg)
