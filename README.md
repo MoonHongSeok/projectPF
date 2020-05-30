@@ -305,8 +305,7 @@
 
 ### - 전달받은 객체는 prepareStatement로 sql을 실행 DB DATA를 수정합니다.
 
-### properties를 활용하여 JAVA코드와 SQL코드를 별도관리하여 
-### 유지보수측면에서 유리
+- properties를 활용하여 JAVA코드와 SQL코드를 별도관리 하였습니다.
 
 #
 
