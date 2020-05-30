@@ -4,30 +4,9 @@
 ### 교육기간 2019년 08월 16일 ~ 2020년 01월 23일
 
 
-### JAVA 프로그래밍
-- 기본문법 및 객체지향에 대한 개념과 이해, Collection, List,Set, Map, Exception Handling, 다형성 학습
-
-- Oracle
-DML, DDL, DCL, subquery, join, view, PL/SQL , 기본문법 학습
-
-### JDBC
-- JDBC연동순서, 각 클래스의 역할, Type별 driver 특징 설명, transaction의 처리방법 학습
-
-### JavaScript / HTML 5 / CSS3 
- - JavaScript 기본 문법, function, 웹표준 기반의 HTML5 마크업, CSS3스탕일링
-
-### jQuery / Bootstrap / Ajax / JSON / XML
-- jQuery웹서비스 활용, Ajax XMLHttpRequest서버와의 통신 이해, GoogleMap등 오픈API활용, JSON 파싱 학습
-
-### Servlet / JSP / JSTL / EL
-- MVC기반 Web serivce구현, Container의 사용법, Java Web Service시 폴더구성,
-- Servlet 작성법 및 요청과 응답의 사용(HttpServletRequest, HttpServletResponse), EL, JSTL 학습
-
-### Spring / myBATIS
-- Spring의 특징 및 이해와 실습, Spring MVC처리, MyBATIS 연동
 #
 
-# Spring MVC패턴 기반의 "fifteenGG" 프로젝트
+# Riot Games의 Rest API를 활용한 "fifteenGG" 프로젝트
 
 - 듀오찾기 게시판으로 같이 플레이할 유저를 매칭합니다.
 - 게임 빅데이터를 활용하기 위한 Riot API(Rest API)를 사용하여 데이터를 수집했습니다.
